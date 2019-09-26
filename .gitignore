@@ -69,5 +69,8 @@ Assets/Imported/PolygonTown/*
 Assets/Imported/PolygonCity/*
 Assets/Imported/SmallCars_Sport/*
 Assets/Imported/VehiclePhysics/*
+Assets/Scenes/Main/*
+Assets/Prefabs/Impostered/*
+Assets/AmplifyImpostors/*
 
 !*.gitkeep

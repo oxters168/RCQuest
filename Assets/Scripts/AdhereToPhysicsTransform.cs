@@ -15,7 +15,7 @@ public class AdhereToPhysicsTransform : MonoBehaviour
     }
     private void Update()
     {
-        Quaternion deltaRotate = previousRotation * Quaternion.Inverse(transformToAdhereTo.rotation);
+        Quaternion deltaRotate = transformToAdhereTo.rotation * Quaternion.Inverse(previousRotation);
         body.angularVelocity = deltaRotate * body.angularVelocity;
         body.velocity = deltaRotate * body.velocity;
         previousRotation = transformToAdhereTo.rotation;
